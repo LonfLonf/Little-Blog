@@ -1,0 +1,83 @@
+﻿@page "/login"
+@inject IJSRuntime JS
+
+<PageTitle>Home</PageTitle>
+
+
+<div class="container">
+    <div class="hello-div">
+        <img id="img-raccon"src="images/EMOTE_YURI_01.png" />
+        <div class="text-tile-home">
+            <h1><code>&lt;h1&gt;</code> Login <code>&lt;/h1&gt;</code></h1>
+            <br />
+            <br />
+        </div>
+    </div>
+
+    <div class="text-home">
+        <div class="mb-3 row">
+            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="staticEmail" @bind="Username">
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword" @bind="Password">
+            </div>
+        </div>
+        <button id="buttonRedirect" @onclick="RedirectPage">Log In</button>
+    </div>
+
+</div>
+
+@code {
+    public string Username { get; set; }
+    public string Password { get; set; }
+
+    private HttpClient HttpClient { get; set; } = new HttpClient();
+    private string url = ("https://localhost:7250/api/admin/login");
+
+    public async void RedirectPage()
+    {
+        UserDto userDto = new UserDto();
+
+        userDto.Username = Username;
+        userDto.Password = Password;
+
+        try
+        {
+            var response = await HttpClient.PostAsJsonAsync(url, userDto);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var token = await response.Content.ReadAsStringAsync();
+                await SaveToken(token);
+                NavigationManager.NavigateTo("/admin/69");
+            }
+            else
+            {
+                Console.WriteLine("Error");
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.ToString());
+        }
+    }
+
+    private async Task SaveToken(string Token)
+    {
+        await JS.InvokeVoidAsync("localStorage.setItem", "authToken", Token);
+    }
+    
+    [Inject]
+    private NavigationManager NavigationManager { get; set; }
+
+    public class UserDto
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
+    }
+}

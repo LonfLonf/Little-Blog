@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LivingAsIntern.Client.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LivingAsIntern.Client.rm516k848m.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\wwwroot\\appsettings.Development.json",
+      "PackagePath": "staticwebassets\\appsettings.Development.json"
+    },
+    {
+      "Id": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LivingAsIntern.Client.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LivingAsIntern.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LivingAsIntern.Client.props",
+      "PackagePath": "build\\LivingAsIntern.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LivingAsIntern.Client.props",
+      "PackagePath": "buildMultiTargeting\\LivingAsIntern.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LivingAsIntern.Client.props",
+      "PackagePath": "buildTransitive\\LivingAsIntern.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

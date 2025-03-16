@@ -1,0 +1,83 @@
+﻿@using Microsoft.AspNetCore.Authorization
+@inherits LayoutComponentBase
+@inject IJSRuntime JSRuntime
+
+@attribute [Authorize]
+
+@if(isAuth)
+{
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: white; border-radius:7px">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="padding-top:3px">Living as Intern</a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Routine as Intern</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Topics about Tech</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="createpost">Admin</a>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left:1100px">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded=@isDropdownOpen @onclick="ToggleDropdown">
+                            Filter Posts
+                        </a>
+                        <ul class="dropdown-menu @(isDropdownOpen ? "show" : "")">
+                            @for (int i = 0; i < months.Length; i++)
+                            {
+                                <li><a class="dropdown-item" onclick="NavigationM" href="/admin/@(i+1)">@months[i]</a></li>
+                            }
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+}
+
+@code {
+    private bool isDropdownOpen = false;
+
+    bool isAuth = false;
+
+    string[] months = {
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+    };
+
+    private HttpClient HttpClient { get; set; } = new HttpClient();
+
+    protected override async Task OnInitializedAsync()
+{
+    await auth();
+}
+
+    void ToggleDropdown()
+    {
+        isDropdownOpen = !isDropdownOpen;
+    }
+
+    [Inject] NavigationManager navigationManager { get; set; }
+
+    public void NavigationTo(int id)
+    {
+        navigationManager.NavigateTo($"/admin/{id}");
+    }
+
+    private async Task auth()
+    {
+        var token = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "authToken");
+
+        if (!string.IsNullOrEmpty(token))
+        {
+            isAuth = true;
+        }
+        else
+        {
+            isAuth = false;
+        }
+    }
+
+}

@@ -1,0 +1,193 @@
+﻿@page "/admin/{PageAdminId:int}"
+@using LivingAsIntern.Client.Layout
+@using System.Text.Json
+@using Microsoft.AspNetCore.Authorization
+@inject IJSRuntime JS
+
+@attribute [Authorize]
+
+<PageTitle>Home</PageTitle>
+
+<AuthorizeView>
+    <Authorized>
+        @if (isLoading)
+        {
+            <p>Loading...</p> 
+        }
+        else
+        {
+            <div class="page">
+                <div>
+                    <NavBarAdmin />
+                </div>
+
+                <main class="content px-4" style="gap:125px">
+                    <br />
+                    <br />
+                    <br />
+                    @foreach (Post post in Posts)
+                    {
+                        <div>
+                            <div class="row row-cols-1 post">
+                                <div class="col title-post">
+                                    <h4><a href="#" id="title-post-id">@post.Title</a></h4>
+                                </div>
+
+                                <div class="col">
+                                    <label class="tags-post-label">
+                                        Tags:
+                                        @((MarkupString)string.Join(", ", post.Tags.Select(tag => $"<a class='tags-post-a' href='#'>{tag}</a>")))
+                                    </label>
+                                </div>
+
+                                <div class="col">
+                                    <label class="publish-date">
+                                        Published in: @post.CreatedAt
+                                    </label>
+                                </div>
+
+                                <button style="border-radius:5px" @onclick="() => NavigateToPost(post.Id)">Edit</button>
+                                <button style="border-radius:5px" @onclick="() => Delete(post.Id)">Delete</button>
+                            </div>
+                        </div>
+                    }
+                </main>
+            </div>
+        }
+    </Authorized>
+    <NotAuthorized>
+
+    </NotAuthorized>
+</AuthorizeView>
+
+
+@code {
+    private HttpClient HttpClient { get; set; } = new HttpClient();
+    private string url = ("https://localhost:7250/api/post/");
+
+    [Inject] public required NavigationManager navigationManager { get; set; }
+    [Parameter] public int PageAdminId { get; set; }
+
+    List<Post>? Posts = new List<Post>();
+
+    private bool isLoading = true;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        await LoadPosts();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadPosts();
+        isLoading = false;
+    }
+
+    public async Task LoadPosts()
+    {
+        var token = await JS.InvokeAsync<string>("localStorage.getItem", "authToken");
+
+        if (!string.IsNullOrEmpty(token))
+        {
+            HttpClient.DefaultRequestHeaders.Authorization =
+                new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+            HttpResponseMessage responseMessage = await HttpClient.GetAsync(url);
+
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                string content = await responseMessage.Content.ReadAsStringAsync();
+
+                var deserializedPosts = JsonSerializer.Deserialize<List<Post>>(content);
+
+                if (PageAdminId == 69)
+                {
+                    try
+                    {
+                        Posts = deserializedPosts.OrderByDescending(post => post.CreatedAt).ToList();
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("Error - GET METHOD ALL- EXCEPTION: " + e.GetBaseException());
+                    }
+                }
+                else if (PageAdminId >= 1 && PageAdminId <= 12)
+                {
+                    try
+                    {
+                        Posts = deserializedPosts.Where(post => post.CreatedAt.Month == PageAdminId)
+                                        .OrderByDescending(post => post.CreatedAt)
+                                        .ToList();
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("Error - GET METHOD MONTH- EXCEPTION: " + e.GetBaseException());
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("Error - GET METHOD");
+            }
+        }
+    }
+
+    public async void Delete(int Id)
+    {
+        string urlForDelete = url + "delete/" + Id;
+
+        var token = await JS.InvokeAsync<string>("localStorage.getItem", "authToken");
+
+        if (token != null)
+        {
+            HttpClient.DefaultRequestHeaders.Authorization =
+                new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+        }
+
+        var response = await HttpClient.DeleteAsync(urlForDelete);
+
+        if (response.IsSuccessStatusCode)
+        {
+            var postRemove = Posts.FirstOrDefault(post => post.Id == Id);
+            if (postRemove != null)
+            {
+                Posts.Remove(postRemove);
+            }
+            StateHasChanged();
+        }
+        else 
+        {
+            Console.WriteLine("Error to Delete Post");
+        }
+    }
+
+    public void NavigateToPost(int PostId)
+    {
+        navigationManager.NavigateTo($"/updatepost/{PostId}");
+    }
+
+    public class Post
+    {
+        [System.Text.Json.Serialization.JsonPropertyName("id")]
+        public int Id { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("title")]
+        public string Title { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("tags")]
+        public string[] Tags { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("createdAt")]
+        public DateTime CreatedAt { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("textHTML")]
+        public string textHTML { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("textMarkDown")]
+        public string textMarkDown { get; set; }
+    }
+}
+
+
+
+

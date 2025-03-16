@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivingAsIntern", "LivingAsIntern\LivingAsIntern.csproj", "{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivingAsIntern.Client", "LivingAsIntern.Client\LivingAsIntern.Client.csproj", "{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

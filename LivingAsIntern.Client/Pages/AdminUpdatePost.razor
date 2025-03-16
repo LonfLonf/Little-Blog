@@ -1,0 +1,243 @@
+﻿@page "/updatepost/{PostId:int}"
+@using LivingAsIntern.Client.Layout
+@using System.Text.Json
+@inject HttpClient HttpClient
+@inject IJSRuntime JS
+
+<PageTitle>Home</PageTitle>
+
+<AuthorizeView>
+    <Authorized>
+        <div class="page">
+            <div>
+                <NavBarAdmin />
+            </div>
+            <br />
+            <br />
+            <br />
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+                <symbol id="check-circle-fill" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                </symbol>
+                <symbol id="info-fill" viewBox="0 0 16 16">
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+                </symbol>
+                <symbol id="exclamation-triangle-fill" viewBox="0 0 16 16">
+                    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                </symbol>
+            </svg>
+
+
+            @if (isLoading)
+            {
+                <div class="alert alert-warning d-flex align-items-center" role="alert">
+                    <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Warning:" style="width: 50px; height: 50px;"><use xlink:href="#exclamation-triangle-fill" /></svg>
+                    <div>
+                        Loading...
+                    </div>
+                </div>
+
+            }
+            else
+            {
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Title</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Routine as Intern: {Title}" @bind="post.Title">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Tags</label>
+                    <input type="" class="form-control" id="exampleFormControlInput1" placeholder="BRO DONT USE THIS" @bind="post.Tags">
+                </div>
+
+                <button style="border-radius:5px; margin-bottom:10px" @onclick="Update_OnClick">Update Post</button>
+
+
+                @if (statusSuccess)
+                {
+                    <div class="alert alert-success d-flex align-items-center" role="alert">
+                        <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Success:" style="width: 25px; height: 25px;"><use xlink:href="#check-circle-fill" /></svg>
+                        <div>
+                            Post Updated Sucessfully
+                        </div>
+                    </div>
+                }
+                else if (statusError)
+                {
+                    <div class="alert alert-danger d-flex align-items-center" role="alert">
+                        <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Danger:" style="width: 25px; height: 25px;"><use xlink:href="#exclamation-triangle-fill" /></svg>
+                        <div>
+                            Error to Update a Post: @errorMessage
+                        </div>
+                    </div>
+                }
+
+                <main class="content px-4" style="background-color:white; border-radius:5px;">
+                    <div class="col-md-12" style="color:black; height:100vh; overflow:auto">
+                        <MarkdownEditor @bind-Value="@post.textMarkDown"
+                                        ValueHTMLChanged="@OnMarkdownValueHTMLChanged" />
+
+                        <hr />
+
+                        <h3>Result</h3>
+                        @((MarkupString)markdownHtml)
+                    </div>
+                </main>
+            }
+        </div>
+    </Authorized>
+    <NotAuthorized>
+        
+    </NotAuthorized>
+</AuthorizeView>
+
+
+@code {
+    string markdownValue = "#Markdown Editor\nThis is a test";
+    string markdownHtml;
+    bool isLoading = true;
+
+    [Parameter] public int PostId { get; set; }
+    private string url = ("https://localhost:7250/api/post/id/");
+    Post post;
+
+    bool statusSuccess = false;
+    bool statusError = false;
+    string errorMessage = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            post = await LoadPost();
+        }
+        finally
+        {
+            isLoading = false; 
+        }
+    }
+
+    Task OnMarkdownValueChanged(string value)
+    {
+        return Task.CompletedTask;
+    }
+
+    Task OnMarkdownValueHTMLChanged(string value)
+    {
+        markdownHtml = value;
+        return Task.CompletedTask;
+    }
+
+    public async Task Update_OnClick()
+    {
+        Post post1 = new Post()
+            {
+                Id = post.Id,
+                Title = post.Title,
+                Tags = post.Tags,
+                CreatedAt = DateTime.Now,
+                textHTML = post.textHTML,
+                textMarkDown = post.textMarkDown
+            };
+
+        try
+        {
+            var token = await JS.InvokeAsync<string>("localStorage.getItem", "authToken");
+
+            if (token != null)
+            {
+                HttpClient.DefaultRequestHeaders.Authorization =
+                    new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+            }
+
+            var response = await HttpClient.PutAsJsonAsync($"https://localhost:7250/api/post/update/{PostId}", post1);
+
+            if (response.IsSuccessStatusCode)
+            {
+                await setDelayStatusSuccess(2000);
+            }
+            else
+            {
+                errorMessage = "Error - CODE:" + response.StatusCode;
+                await setDelayStatusError(4000);
+            }
+        }
+        catch (Exception e)
+        {
+            errorMessage = "Exception:" + e.ToString();
+            await setDelayStatusError(6000);
+        }
+    }
+
+    private async Task setDelayStatusSuccess(int Delay)
+    {
+        statusSuccess = true;
+        StateHasChanged();
+        await Task.Delay(Delay);
+        statusSuccess = false;
+        StateHasChanged();
+    }
+
+    private async Task setDelayStatusError(int Delay)
+    {
+        statusError = true;
+        StateHasChanged();
+        await Task.Delay(Delay);
+        StateHasChanged();
+        statusError = false;
+    }
+
+    public async Task<Post> LoadPost()
+    {
+        try
+        {
+            var token = await JS.InvokeAsync<string>("localStorage.getItem", "authToken");
+
+            if (token != null)
+            {
+                HttpClient.DefaultRequestHeaders.Authorization =
+                    new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+            }
+
+            HttpResponseMessage responseMessage = await HttpClient.GetAsync(url + PostId);
+
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                string content = await responseMessage.Content.ReadAsStringAsync();
+                return JsonSerializer.Deserialize<Post>(content) ?? new Post();
+            }
+            else
+            {
+                Console.WriteLine("Error - GET METHOD UPDATE PAGE");
+                return new Post();
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"Error - GET METHOD UPDATE PAGE - EXCEPTION: {e.GetBaseException()}");
+            return new Post();
+        }
+    }
+
+    public class Post
+    {
+        [System.Text.Json.Serialization.JsonPropertyName("id")]
+        public int Id { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("title")]
+        public string Title { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("tags")]
+        public string[] Tags { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("createdAt")]
+        public DateTime CreatedAt { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("textHTML")]
+        public string textHTML { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("textMarkDown")]
+        public string textMarkDown { get; set; }
+    }
+}

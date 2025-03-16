@@ -1,0 +1,34 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+
+<div class="container">
+    <div class="hello-div">
+        <img id="img-raccon"src="images/EMOTE_YURI_01.png" />
+        <div class="text-tile-home">
+            <h1><code>&lt;h1&gt;</code> Hello! I'm LonfLonf <code>&lt;/h1&gt;</code></h1>
+            <br />
+        </div>
+    </div>
+
+    <div class="text-home">
+        <p><code>&lt;p&gt;</code> My real name is Yuri, and I'm 19 years old. I'm from Brazil, and I work as an Intern (Dev) at FIEMG. <code>&lt;/p&gt;</code></p>
+        <p><code>&lt;p&gt;</code> In my blog, I will share my life as an intern and a student in college. <code>&lt;/p&gt;</code></p>
+        <p><code>&lt;p&gt;</code> I like C#, malware development, cybersecurity, and a lot of other tech-related topics. <code>&lt;/p&gt;</code></p>
+        <br />
+        <button id="buttonRedirect" @onclick="RedirectPage">Click Here to See My Blog</button>
+    </div>
+
+</div>
+
+@code {
+
+    public void RedirectPage()
+    {
+        NavigationManager.NavigateTo("/blog");
+    }
+
+    [Inject]
+    private NavigationManager NavigationManager { get; set; }
+}

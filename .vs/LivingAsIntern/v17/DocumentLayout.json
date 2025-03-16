@@ -1,0 +1,490 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern.client\\pages\\blog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|solutionrelative:livingasintern.client\\pages\\blog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern.client\\pages\\pagetoread.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|solutionrelative:livingasintern.client\\pages\\pagetoread.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern.client\\pages\\adminupdatepost.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|solutionrelative:livingasintern.client\\pages\\adminupdatepost.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern.client\\pages\\admin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|solutionrelative:livingasintern.client\\pages\\admin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern.client\\pages\\admincreatepost.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|solutionrelative:livingasintern.client\\pages\\admincreatepost.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|solutionrelative:livingasintern.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern.client\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|solutionrelative:livingasintern.client\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|solutionrelative:livingasintern.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|solutionrelative:livingasintern\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern.client\\layout\\navbaradmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|solutionrelative:livingasintern.client\\layout\\navbaradmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern.client\\layout\\navbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|solutionrelative:livingasintern.client\\layout\\navbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|solutionrelative:livingasintern\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern\\controller\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|solutionrelative:livingasintern\\controller\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|solutionrelative:livingasintern\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|solutionrelative:livingasintern\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|solutionrelative:livingasintern\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|solutionrelative:livingasintern\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern\\services\\userservicedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|solutionrelative:livingasintern\\services\\userservicedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|solutionrelative:livingasintern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|solutionrelative:livingasintern\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern\\services\\userservicetoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|solutionrelative:livingasintern\\services\\userservicetoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|solutionrelative:livingasintern\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern\\configuration\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|solutionrelative:livingasintern\\configuration\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern.client\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|solutionrelative:livingasintern.client\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|solutionrelative:livingasintern\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E7C71DA-EAF7-4F27-87E5-3CF1C2CC7422}|LivingAsIntern.Client\\LivingAsIntern.Client.csproj|solutionrelative:livingasintern.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\livingasintern\\livingasintern\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0976EB9-30B8-4B5E-83EA-A9469E689D0D}|LivingAsIntern\\LivingAsIntern.csproj|solutionrelative:livingasintern\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 317,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Services\\PostService.cs",
+              "RelativeDocumentMoniker": "LivingAsIntern\\Services\\PostService.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Services\\PostService.cs",
+              "RelativeToolTip": "LivingAsIntern\\Services\\PostService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA0wDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T00:18:14.635Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Entities\\Post.cs",
+              "RelativeDocumentMoniker": "LivingAsIntern\\Entities\\Post.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Entities\\Post.cs",
+              "RelativeToolTip": "LivingAsIntern\\Entities\\Post.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:40:33.581Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "LivingAsIntern\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\wwwroot\\app.css",
+              "RelativeToolTip": "LivingAsIntern\\wwwroot\\app.css",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-15T03:44:41.843Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PageToRead.razor",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Pages\\PageToRead.razor",
+              "RelativeDocumentMoniker": "LivingAsIntern.Client\\Pages\\PageToRead.razor",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Pages\\PageToRead.razor",
+              "RelativeToolTip": "LivingAsIntern.Client\\Pages\\PageToRead.razor",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwCkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T20:49:49.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "LivingAsIntern.Client\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Pages\\Login.razor",
+              "RelativeToolTip": "LivingAsIntern.Client\\Pages\\Login.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T15:51:21.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminCreatePost.razor",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Pages\\AdminCreatePost.razor",
+              "RelativeDocumentMoniker": "LivingAsIntern.Client\\Pages\\AdminCreatePost.razor",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Pages\\AdminCreatePost.razor",
+              "RelativeToolTip": "LivingAsIntern.Client\\Pages\\AdminCreatePost.razor",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAF4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T03:50:45.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminUpdatePost.razor",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Pages\\AdminUpdatePost.razor",
+              "RelativeDocumentMoniker": "LivingAsIntern.Client\\Pages\\AdminUpdatePost.razor",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Pages\\AdminUpdatePost.razor",
+              "RelativeToolTip": "LivingAsIntern.Client\\Pages\\AdminUpdatePost.razor",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAGQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T01:58:04.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Controller\\UserController.cs",
+              "RelativeDocumentMoniker": "LivingAsIntern\\Controller\\UserController.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Controller\\UserController.cs",
+              "RelativeToolTip": "LivingAsIntern\\Controller\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T14:29:21.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Admin.razor",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Pages\\Admin.razor",
+              "RelativeDocumentMoniker": "LivingAsIntern.Client\\Pages\\Admin.razor",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Pages\\Admin.razor",
+              "RelativeToolTip": "LivingAsIntern.Client\\Pages\\Admin.razor",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T03:03:01.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NavBar.razor",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Layout\\NavBar.razor",
+              "RelativeDocumentMoniker": "LivingAsIntern.Client\\Layout\\NavBar.razor",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Layout\\NavBar.razor",
+              "RelativeToolTip": "LivingAsIntern.Client\\Layout\\NavBar.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T03:04:22.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Blog.razor",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Pages\\Blog.razor",
+              "RelativeDocumentMoniker": "LivingAsIntern.Client\\Pages\\Blog.razor",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Pages\\Blog.razor*",
+              "RelativeToolTip": "LivingAsIntern.Client\\Pages\\Blog.razor*",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAIwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T03:08:30.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "LivingAsIntern.Client\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Pages\\Home.razor",
+              "RelativeToolTip": "LivingAsIntern.Client\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T23:48:10.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "LivingAsIntern.Client\\_Imports.razor",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\_Imports.razor",
+              "RelativeToolTip": "LivingAsIntern.Client\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T04:01:59.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "LivingAsIntern\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Entities\\User.cs",
+              "RelativeToolTip": "LivingAsIntern\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T14:25:58.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\DTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "LivingAsIntern\\DTO\\UserDto.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\DTO\\UserDto.cs",
+              "RelativeToolTip": "LivingAsIntern\\DTO\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T15:22:51.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NavBarAdmin.razor",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Layout\\NavBarAdmin.razor",
+              "RelativeDocumentMoniker": "LivingAsIntern.Client\\Layout\\NavBarAdmin.razor",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Layout\\NavBarAdmin.razor",
+              "RelativeToolTip": "LivingAsIntern.Client\\Layout\\NavBarAdmin.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T03:07:28.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Controller\\PostController.cs",
+              "RelativeDocumentMoniker": "LivingAsIntern\\Controller\\PostController.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Controller\\PostController.cs",
+              "RelativeToolTip": "LivingAsIntern\\Controller\\PostController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T01:02:41.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "LivingAsIntern\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "LivingAsIntern\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T23:43:05.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserServiceDb.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Services\\UserServiceDb.cs",
+              "RelativeDocumentMoniker": "LivingAsIntern\\Services\\UserServiceDb.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Services\\UserServiceDb.cs",
+              "RelativeToolTip": "LivingAsIntern\\Services\\UserServiceDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T15:41:34.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserServiceToken.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Services\\UserServiceToken.cs",
+              "RelativeDocumentMoniker": "LivingAsIntern\\Services\\UserServiceToken.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Services\\UserServiceToken.cs",
+              "RelativeToolTip": "LivingAsIntern\\Services\\UserServiceToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T14:30:54.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Program.cs",
+              "RelativeDocumentMoniker": "LivingAsIntern\\Program.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Program.cs",
+              "RelativeToolTip": "LivingAsIntern\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T17:57:20.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\appsettings.json",
+              "RelativeDocumentMoniker": "LivingAsIntern\\appsettings.json",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\appsettings.json",
+              "RelativeToolTip": "LivingAsIntern\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-15T01:29:46.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Configuration\\Configuration.cs",
+              "RelativeDocumentMoniker": "LivingAsIntern\\Configuration\\Configuration.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Configuration\\Configuration.cs",
+              "RelativeToolTip": "LivingAsIntern\\Configuration\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T14:23:23.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Routes.razor",
+              "RelativeDocumentMoniker": "LivingAsIntern.Client\\Routes.razor",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Routes.razor",
+              "RelativeToolTip": "LivingAsIntern.Client\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T01:55:45.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "LivingAsIntern\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Components\\_Imports.razor",
+              "RelativeToolTip": "LivingAsIntern\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T02:28:05.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Components\\App.razor",
+              "RelativeDocumentMoniker": "LivingAsIntern\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern\\Components\\App.razor",
+              "RelativeToolTip": "LivingAsIntern\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T04:06:40.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "LivingAsIntern.Client\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\LivingAsIntern\\LivingAsIntern.Client\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "LivingAsIntern.Client\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T20:45:47.798Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
